@@ -7,6 +7,7 @@ html {
     background-color: black;
     text-align: center;
     display: block;
+    object-fit: contain;
 }
 
 h1 {
@@ -33,4 +34,33 @@ footer p {
     text-align: right;
     color: gray;
     font-size: 1.3125rem;
+}
+
+.video-container {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 400px;
+}
+
+video {
+    width: 100%;
+}
+
+.img-container {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 90%;
+    margin-bottom: 1rem;
+}
+
+#cellphone-icon {
+    width: 50px;
+}
+
+img {
+    width: 100%;
 }
